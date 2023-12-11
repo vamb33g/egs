@@ -36,14 +36,14 @@ export default function FeaturesBlocks() {
                 width={100}
                 height={100}
               />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe Seule</h4>
               <p className="text-gray-600 text-center">20min . 17€</p>
             </div>
 
             {/* 2nd item */}
 
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Barbe</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Barbe Seule</h4>
               <p className="text-gray-600 text-center">15min . 9€</p>
               <Image
                 src={'/images/tondeuse.png'}
