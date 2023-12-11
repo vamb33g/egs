@@ -21,7 +21,7 @@ export default function FeaturesBlocks() {
             </p>
           </div>
           <div className="max-w-3xl mx-auto text-center underline mb-10">
-            <h2 className="h2 mb-4">Notre carte</h2>
+            <h2 className="h2 mb-4">Notre Carte</h2>
           </div>
 
           {/* Items */}
