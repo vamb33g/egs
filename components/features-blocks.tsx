@@ -29,7 +29,7 @@ export default function FeaturesBlocks() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe + Barbe</h4>
-              <p className="text-gray-600 text-center">30min . 22€</p>
+              <p className="text-gray-600 text-center">22€</p>
               <Image
                 src={'/images/ciseaux2.png'}
                 alt="ciseau"
@@ -37,14 +37,14 @@ export default function FeaturesBlocks() {
                 height={100}
               />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe</h4>
-              <p className="text-gray-600 text-center">20min . 17€</p>
+              <p className="text-gray-600 text-center">17€</p>
             </div>
 
             {/* 2nd item */}
 
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Barbe</h4>
-              <p className="text-gray-600 text-center">15min . 9€</p>
+              <p className="text-gray-600 text-center">19€</p>
               <Image
                 src={'/images/tondeuse.png'}
                 alt="ciseau"
@@ -52,13 +52,13 @@ export default function FeaturesBlocks() {
                 height={100}
               />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contour</h4>
-              <p className="text-gray-600 text-center">15min . 9€</p>
+              <p className="text-gray-600 text-center">9€</p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Black Masque</h4>
-              <p className="text-gray-600 text-center">30min . 10€</p>
+              <p className="text-gray-600 text-center">10€</p>
               <Image
                 src={'/images/logobarber.png'}
                 alt="ciseau"
@@ -68,7 +68,7 @@ export default function FeaturesBlocks() {
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Shampoing détente
               </h4>
-              <p className="text-gray-600 text-center">5min . 3€</p>
+              <p className="text-gray-600 text-center">3€</p>
             </div>
           </div>
         </div>
