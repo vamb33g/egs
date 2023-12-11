@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import TestimonialImage from '@/public/images/visage.png'
+import TestimonialImage from '@/public/images/hck.png'
 
 export default function Testimonials() {
   return (
@@ -86,7 +86,7 @@ export default function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ Ce salon est un incontournable pour tout homme soucieux de son apparence. Simple d'accès, ambiance top, et les coupes sont toujours au point. J'y vais régulièrement et les compliments sur mon look ne cessent d'augmenter. “
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Julien Moreau</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Steve Le Gall</cite>
                 {/* <div className="text-gray-600">
                   <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
                 </div> */}
