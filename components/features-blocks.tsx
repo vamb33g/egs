@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function FeaturesBlocks() {
   return (
     <section className="relative">
@@ -11,8 +13,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Explore the solutions</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">L'Essentiel du Style Masculin</h2>
+            <p className="text-xl text-gray-600">Notre salon offre une approche moderne de la coiffure masculine, alliant technique et détente pour chaque client.</p>
           </div>
 
           {/* Items */}
@@ -20,7 +22,8 @@ export default function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <Image src={"/images/ciseaux2.png"} alt="ciseau" width={100} height={100}/>
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -30,14 +33,15 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />  
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe + Barbe</h4>
+              <p className="text-gray-600 text-center">30min . 22€</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <Image src={"/images/tondeuse.png"} alt="ciseau" width={109} height={100}/>
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" transform="translate(19.429 20.571)">
@@ -46,14 +50,16 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coupe Seule</h4>
+              <p className="text-gray-600 text-center">20min . 17€</p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <Image src={"/images/logobarber.png"} alt="ciseau" width={90} height={250}/>
+            
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -63,14 +69,15 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-white" d="M24 32h3.429" strokeLinecap="square" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Barbe Seule</h4>
+              <p className="text-gray-600 text-center">15min . 9€</p>
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl"><br />
+            {/* <Image src={"/images/ciseaux2.png"} alt="ciseau" width={100} height={100}/> */}
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -80,14 +87,15 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Black Masque</h4>
+              <p className="text-gray-600 text-center">30min . 10€</p><br />
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl"><br />
+            {/* <Image src={"/images/ciseaux2.png"} alt="ciseau" width={100} height={100}/> */}
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -96,14 +104,15 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-white" d="M34.286 29.714L32 32" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Shampoing détente</h4>
+              <p className="text-gray-600 text-center">5min . 3€</p><br />
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl"><br />
+            {/* <Image src={"/images/ciseaux2.png"} alt="ciseau" width={100} height={100}/> */}
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" strokeLinecap="square">
@@ -111,9 +120,9 @@ export default function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M44.571 43.429H34.286M44.571 37.714H34.286" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contour</h4>
+              <p className="text-gray-600 text-center">15min . 9€</p><br />
             </div>
 
           </div>

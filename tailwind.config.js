@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        black: '#000', // Remplacez par votre couleur spécifique si nécessaire
+        gold: '#ffd700', // Remplacez par votre couleur spécifique si nécessaire
         gray: {
           100: '#FBFBFB',
           200: '#EAEAEA',
@@ -124,6 +126,9 @@ module.exports = {
       },
       zIndex: {
         '-1': '-1',
+      },
+      backgroundImage: {
+        'black-gold-gradient': 'linear-gradient(to right, #000 -50%, #ffd700 100%)', // Gradient noir à or
       },
     },
   },
