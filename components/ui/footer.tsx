@@ -11,12 +11,9 @@ export default function Footer() {
             <div className="mb-2">
               <Logo />
             </div>
-            {/* <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
-            </div> */}
           </div>
 
-          {/* 2nd block */}
+          {/* 1st block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Accueil</h6>
             <ul className="text-sm">
@@ -36,25 +33,13 @@ export default function Footer() {
                   Nos produits
                 </a>
               </li>
-              {/* <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Contact</a>
-              </li> */}
-              {/* <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</a>
-              </li> */}
             </ul>
           </div>
 
-          {/* 3rd block */}
+          {/* 2ndblock */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
-              {/* <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
-              </li> */}
               <li className="mb-2">
                 <a
                   href="#0"
@@ -71,16 +56,10 @@ export default function Footer() {
                   Politique de confidentialité
                 </a>
               </li>
-              {/* <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
-              </li> */}
             </ul>
           </div>
 
-          {/* 4th block */}
+          {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Société</h6>
             <ul className="text-sm">
@@ -100,15 +79,6 @@ export default function Footer() {
                   Qui sommes-nous ?
                 </a>
               </li>
-              {/* <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
-              </li> */}
             </ul>
           </div>
 
@@ -156,8 +126,6 @@ export default function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
                 </div>
               </div>
             </form>
